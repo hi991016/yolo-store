@@ -168,6 +168,11 @@
         left: 50%;
         transform: translate(-50%);
 
+        @include mobile {
+            bottom: 25px;
+            left: 85%;
+        }
+
         &__item~&__item {
             margin-left: 10px;
         }
