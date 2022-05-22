@@ -1,9 +1,20 @@
-import React from 'react'
+import React from "react";
+
+// Assets
+import heroSliderData from "../assets/fake-data/hero-slider";
+
+// Components
+import Helmet from "../components/Helmet";
+import HeroSlider from "../components/HeroSlider";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <Helmet title="Trang chủ">
+      {/* hero slider */}
+      <HeroSlider data={heroSliderData} control auto timeOut={5000} />
+      {/* end hero slider */}
+    </Helmet>
+  );
+};
 
-export default Home
+export default Home;

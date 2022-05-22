@@ -1,8 +1,11 @@
 import React from 'react'
 
+// Components
+import Helmet from '../components/Helmet'
+
 const Product = () => {
   return (
-    <div>Product</div>
+    <Helmet title="Sản phẩm">Product</Helmet>
   )
 }
 
