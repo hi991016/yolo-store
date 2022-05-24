@@ -11,6 +11,7 @@ import "./assets/boxicons-2.0.7/css/boxicons.min.css";
 
 // Scss
 import "./sass/index.scss";
+// import "./css/style.css";
 
 // Components
 import Layout from "./components/Layout";
